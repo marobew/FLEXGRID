@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS Flex</title>
+	<link rel="stylesheet" href="default.css">
+	<style>
+		.flex-container {
+            display: flex;
+            /* align: 수직축 */
+			align-items: stretch;
+			/* align-items: flex-start; */
+			/* align-items: flex-end; */
+			/* align-items: center; */
+			/* align-items: baseline; */
+			height: 300px;
+        }
+        .A {
+            height: 100px;
+        }
+        .C {
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-item A">AAAAAAAAAAAA</div>
+		<div class="flex-item B">BBB</div>
+		<div class="flex-item C">CCCCCCC</div>
+	</div>
+</body>
+</html>
