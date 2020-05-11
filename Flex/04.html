@@ -7,9 +7,13 @@
 	<title>CSS Flex</title>
     <link rel="stylesheet" href="default.css">
     <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
         @media (min-width: 600px) {
             .flex-container {
-                display: flex;
+                flex-direction: row;
             }
             .flex-item {
                 flex: 1;
