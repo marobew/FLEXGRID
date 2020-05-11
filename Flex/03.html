@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS Flex</title>
+    <link rel="stylesheet" href="default.css">
+    <style>
+        .flex-container {
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap-reverse; */
+
+            /* flex-direction과 flex-wrap을 한꺼번에 지정할 수 있는 단축 속성 */
+            flex-flow: row wrap;
+            /* 아래의 두 줄을 줄여 쓴 것 */
+	        /* flex-direction: row; */
+	        /* flex-wrap: wrap; */
+        }
+    </style>
+</head>
+<body>
+	<div class="flex-container">
+        <div class="flex-item">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+        <div class="flex-item">BBBBBBBBB</div>
+        <div class="flex-item">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</div>
+    </div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, facere.
+</body>
+</html>
